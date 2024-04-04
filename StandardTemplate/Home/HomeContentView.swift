@@ -24,7 +24,7 @@ struct ProfileView: View {
   }
 }
 
-struct ContentView: View {
+struct HomeContentView: View {
   @State private var selectedTab = 0
   
   var body: some View {
@@ -50,9 +50,9 @@ struct ContentView: View {
   }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeContentView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView()
+    HomeContentView()
   }
 }
 

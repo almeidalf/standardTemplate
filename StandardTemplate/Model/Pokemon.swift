@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Pokemon: Codable {
+  let name: String
+  let height: Int
+  let weight: Int
+}
