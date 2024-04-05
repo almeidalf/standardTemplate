@@ -25,7 +25,6 @@ struct PDFKitView: UIViewControllerRepresentable {
     let document = Document(url: Bundle.main.url(forResource: pdfName.replacingOccurrences(of: ".pdf", with: ""), withExtension: "pdf")!)
     let pdfController = PDFViewController(document: document)
     let textParser = document.textParserForPage(at: 0)!
-    pdfController.
     let glyphs = textParser.glyphs
     let glyph = glyphs[26]
     return pdfController
