@@ -7,45 +7,50 @@
 
 import SwiftUI
 
-struct HomeView: View {
-  var body: some View {
-    VStack {
-      Text("Home Screen")
-      NavigationLink(destination: DetailsView()) {
-        Text("Go To Details")
-      }
-    }
-  }
-}
-
-struct ProfileView: View {
-  var body: some View {
-    Text("Profile Screen")
-  }
-}
-
 struct HomeContentView: View {
+  @ObservedObject var viewModel = HomeViewModel()
   @State private var selectedTab = 0
   
   var body: some View {
-    TabView(selection: $selectedTab) {
-      NavigationView {
-        HomeView()
+    if !viewModel.hiddenTabView {
+      TabView(selection: $selectedTab) {
+        NavigationView {
+          HomeView()
+        }
+        .tabItem {
+          Image(systemName: "house")
+          Text("Sua Banca")
+        }
+        .tag(0)
+        
+        NavigationView {
+          MagazineView()
+        }
+        .tabItem {
+          Image(systemName: "newspaper")
+          Text("Navegar")
+        }
+        .tag(1)
+        
+        NavigationView {
+          MagazineView()
+        }
+        .tabItem {
+          Image(systemName: "arrow.down.circle.dotted")
+          Text("Minhas edições")
+        }
+        .tag(2)
+        
+        NavigationView {
+          MagazineView()
+        }
+        .tabItem {
+          Image(systemName: "person")
+          Text("Perfil")
+        }
+        .tag(3)
       }
-      .tabItem {
-        Image(systemName: "house")
-        Text("Home")
-      }
-      .tag(0)
-      
-      NavigationView {
-        ProfileView()
-      }
-      .tabItem {
-        Image(systemName: "person")
-        Text("Profile")
-      }
-      .tag(1)
+      .background(.white)
     }
   }
 }

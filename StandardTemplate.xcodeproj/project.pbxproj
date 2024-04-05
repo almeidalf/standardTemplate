@@ -7,22 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202F923A2BBEF46C00DEB3C2 /* MagazineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F92392BBEF46C00DEB3C2 /* MagazineView.swift */; };
+		202F923C2BBEFDC700DEB3C2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F923B2BBEFDC700DEB3C2 /* HomeView.swift */; };
+		202F92402BBF23A600DEB3C2 /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F923F2BBF23A600DEB3C2 /* HomeResponse.swift */; };
+		202F92432BBF261B00DEB3C2 /* gooutside_20231010_180_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202F92422BBF261B00DEB3C2 /* gooutside_20231010_180_1.pdf */; };
+		202F92452BBF262300DEB3C2 /* 201909080203035d748b878a516.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202F92442BBF262300DEB3C2 /* 201909080203035d748b878a516.pdf */; };
+		202F92472BBF276700DEB3C2 /* home-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 202F92462BBF276600DEB3C2 /* home-response.json */; };
+		202F92492BBF281400DEB3C2 /* page-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 202F92482BBF281400DEB3C2 /* page-1.png */; };
+		202F924E2BBF31FF00DEB3C2 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F924D2BBF31FF00DEB3C2 /* PDFViewer.swift */; };
+		202F92502BBF3B4200DEB3C2 /* NextMagazines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F924F2BBF3B4200DEB3C2 /* NextMagazines.swift */; };
+		202F92522BBF3DCC00DEB3C2 /* FillButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F92512BBF3DCC00DEB3C2 /* FillButtonView.swift */; };
 		2032EF8F2BBCBB0E00E2248B /* HomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EF8E2BBCBB0E00E2248B /* HomeApp.swift */; };
 		2032EF912BBCBB0E00E2248B /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EF902BBCBB0E00E2248B /* HomeContentView.swift */; };
 		2032EF932BBCBB0F00E2248B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2032EF922BBCBB0F00E2248B /* Assets.xcassets */; };
 		2032EF962BBCBB0F00E2248B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2032EF952BBCBB0F00E2248B /* Preview Assets.xcassets */; };
 		2032EF9E2BBCC0F500E2248B /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EF9D2BBCC0F500E2248B /* DetailsView.swift */; };
 		2032EFA02BBCC13D00E2248B /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EF9F2BBCC13D00E2248B /* DetailsViewModel.swift */; };
-		2032EFA32BBCC2B600E2248B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2032EFA22BBCC2B600E2248B /* SnapKit */; };
-		2032EFA52BBCC2B600E2248B /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2032EFA42BBCC2B600E2248B /* SnapKit-Dynamic */; };
 		2032EFA92BBCC48700E2248B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EFA82BBCC48700E2248B /* UIColor.swift */; };
 		2032EFAB2BBCC4BB00E2248B /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EFAA2BBCC4BB00E2248B /* Collection.swift */; };
 		2032EFAF2BBCE88400E2248B /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EFAE2BBCE88400E2248B /* Pokemon.swift */; };
 		2032EFB22BBDEE1B00E2248B /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EFB12BBDEE1B00E2248B /* PagingView.swift */; };
 		2032EFB42BBDEE3500E2248B /* CustomPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EFB32BBDEE3500E2248B /* CustomPagingView.swift */; };
+		20A121DD2BBF4AA3001EAED5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 20A121DC2BBF4AA3001EAED5 /* SnapKit */; };
+		20A121DF2BBF4BED001EAED5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A121DE2BBF4BED001EAED5 /* HomeViewModel.swift */; };
+		20A121E22BBF5083001EAED5 /* PSPDFKit in Frameworks */ = {isa = PBXBuildFile; productRef = 20A121E12BBF5083001EAED5 /* PSPDFKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		202F92392BBEF46C00DEB3C2 /* MagazineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagazineView.swift; sourceTree = "<group>"; };
+		202F923B2BBEFDC700DEB3C2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		202F923F2BBF23A600DEB3C2 /* HomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
+		202F92422BBF261B00DEB3C2 /* gooutside_20231010_180_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = gooutside_20231010_180_1.pdf; sourceTree = "<group>"; };
+		202F92442BBF262300DEB3C2 /* 201909080203035d748b878a516.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 201909080203035d748b878a516.pdf; sourceTree = "<group>"; };
+		202F92462BBF276600DEB3C2 /* home-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "home-response.json"; sourceTree = "<group>"; };
+		202F92482BBF281400DEB3C2 /* page-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page-1.png"; sourceTree = "<group>"; };
+		202F924D2BBF31FF00DEB3C2 /* PDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
+		202F924F2BBF3B4200DEB3C2 /* NextMagazines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextMagazines.swift; sourceTree = "<group>"; };
+		202F92512BBF3DCC00DEB3C2 /* FillButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillButtonView.swift; sourceTree = "<group>"; };
 		2032EF8B2BBCBB0E00E2248B /* StandardTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandardTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2032EF8E2BBCBB0E00E2248B /* HomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApp.swift; sourceTree = "<group>"; };
 		2032EF902BBCBB0E00E2248B /* HomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +56,7 @@
 		2032EFAE2BBCE88400E2248B /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		2032EFB12BBDEE1B00E2248B /* PagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
 		2032EFB32BBDEE3500E2248B /* CustomPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPagingView.swift; sourceTree = "<group>"; };
+		20A121DE2BBF4BED001EAED5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,14 +64,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2032EFA32BBCC2B600E2248B /* SnapKit in Frameworks */,
-				2032EFA52BBCC2B600E2248B /* SnapKit-Dynamic in Frameworks */,
+				20A121DD2BBF4AA3001EAED5 /* SnapKit in Frameworks */,
+				20A121E22BBF5083001EAED5 /* PSPDFKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		202F92412BBF261200DEB3C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				202F92482BBF281400DEB3C2 /* page-1.png */,
+				202F92462BBF276600DEB3C2 /* home-response.json */,
+				202F92442BBF262300DEB3C2 /* 201909080203035d748b878a516.pdf */,
+				202F92422BBF261B00DEB3C2 /* gooutside_20231010_180_1.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		202F924C2BBF31F200DEB3C2 /* PDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				202F924D2BBF31FF00DEB3C2 /* PDFViewer.swift */,
+			);
+			path = PDFReader;
+			sourceTree = "<group>";
+		};
 		2032EF822BBCBB0E00E2248B = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +110,8 @@
 		2032EF8D2BBCBB0E00E2248B /* StandardTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				202F924C2BBF31F200DEB3C2 /* PDFReader */,
+				202F92412BBF261200DEB3C2 /* Resources */,
 				2032EFB02BBDEE0E00E2248B /* Helpers */,
 				2032EFAD2BBCE87A00E2248B /* Model */,
 				2032EFAC2BBCE7D900E2248B /* Home */,
@@ -111,6 +154,10 @@
 			children = (
 				2032EF8E2BBCBB0E00E2248B /* HomeApp.swift */,
 				2032EF902BBCBB0E00E2248B /* HomeContentView.swift */,
+				202F92392BBEF46C00DEB3C2 /* MagazineView.swift */,
+				202F923B2BBEFDC700DEB3C2 /* HomeView.swift */,
+				202F924F2BBF3B4200DEB3C2 /* NextMagazines.swift */,
+				20A121DE2BBF4BED001EAED5 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -119,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				2032EFAE2BBCE88400E2248B /* Pokemon.swift */,
+				202F923F2BBF23A600DEB3C2 /* HomeResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,6 +176,7 @@
 			children = (
 				2032EFB12BBDEE1B00E2248B /* PagingView.swift */,
 				2032EFB32BBDEE3500E2248B /* CustomPagingView.swift */,
+				202F92512BBF3DCC00DEB3C2 /* FillButtonView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -149,8 +198,8 @@
 			);
 			name = StandardTemplate;
 			packageProductDependencies = (
-				2032EFA22BBCC2B600E2248B /* SnapKit */,
-				2032EFA42BBCC2B600E2248B /* SnapKit-Dynamic */,
+				20A121DC2BBF4AA3001EAED5 /* SnapKit */,
+				20A121E12BBF5083001EAED5 /* PSPDFKit */,
 			);
 			productName = StandardTemplate;
 			productReference = 2032EF8B2BBCBB0E00E2248B /* StandardTemplate.app */;
@@ -181,7 +230,8 @@
 			);
 			mainGroup = 2032EF822BBCBB0E00E2248B;
 			packageReferences = (
-				2032EFA12BBCC2B600E2248B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				20A121DB2BBF4AA3001EAED5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				20A121E02BBF5083001EAED5 /* XCRemoteSwiftPackageReference "PSPDFKit-SP" */,
 			);
 			productRefGroup = 2032EF8C2BBCBB0E00E2248B /* Products */;
 			projectDirPath = "";
@@ -198,6 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2032EF962BBCBB0F00E2248B /* Preview Assets.xcassets in Resources */,
+				202F92432BBF261B00DEB3C2 /* gooutside_20231010_180_1.pdf in Resources */,
+				202F92472BBF276700DEB3C2 /* home-response.json in Resources */,
+				202F92452BBF262300DEB3C2 /* 201909080203035d748b878a516.pdf in Resources */,
+				202F92492BBF281400DEB3C2 /* page-1.png in Resources */,
 				2032EF932BBCBB0F00E2248B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,12 +265,19 @@
 			files = (
 				2032EFAF2BBCE88400E2248B /* Pokemon.swift in Sources */,
 				2032EFB42BBDEE3500E2248B /* CustomPagingView.swift in Sources */,
+				202F924E2BBF31FF00DEB3C2 /* PDFViewer.swift in Sources */,
+				20A121DF2BBF4BED001EAED5 /* HomeViewModel.swift in Sources */,
+				202F92402BBF23A600DEB3C2 /* HomeResponse.swift in Sources */,
 				2032EF912BBCBB0E00E2248B /* HomeContentView.swift in Sources */,
 				2032EF8F2BBCBB0E00E2248B /* HomeApp.swift in Sources */,
 				2032EF9E2BBCC0F500E2248B /* DetailsView.swift in Sources */,
+				202F923C2BBEFDC700DEB3C2 /* HomeView.swift in Sources */,
+				202F92522BBF3DCC00DEB3C2 /* FillButtonView.swift in Sources */,
 				2032EFB22BBDEE1B00E2248B /* PagingView.swift in Sources */,
 				2032EFAB2BBCC4BB00E2248B /* Collection.swift in Sources */,
 				2032EFA02BBCC13D00E2248B /* DetailsViewModel.swift in Sources */,
+				202F923A2BBEF46C00DEB3C2 /* MagazineView.swift in Sources */,
+				202F92502BBF3B4200DEB3C2 /* NextMagazines.swift in Sources */,
 				2032EFA92BBCC48700E2248B /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -333,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -351,6 +412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StandardTemplate/Preview Content\"";
+				DEVELOPMENT_TEAM = 9JYZL3585V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -379,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StandardTemplate/Preview Content\"";
+				DEVELOPMENT_TEAM = 9JYZL3585V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -423,7 +486,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2032EFA12BBCC2B600E2248B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		20A121DB2BBF4AA3001EAED5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -431,18 +494,26 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		20A121E02BBF5083001EAED5 /* XCRemoteSwiftPackageReference "PSPDFKit-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PSPDFKit/PSPDFKit-SP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.4.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2032EFA22BBCC2B600E2248B /* SnapKit */ = {
+		20A121DC2BBF4AA3001EAED5 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2032EFA12BBCC2B600E2248B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 20A121DB2BBF4AA3001EAED5 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
-		2032EFA42BBCC2B600E2248B /* SnapKit-Dynamic */ = {
+		20A121E12BBF5083001EAED5 /* PSPDFKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2032EFA12BBCC2B600E2248B /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
+			package = 20A121E02BBF5083001EAED5 /* XCRemoteSwiftPackageReference "PSPDFKit-SP" */;
+			productName = PSPDFKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
