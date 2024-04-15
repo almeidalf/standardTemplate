@@ -8,10 +8,11 @@
 import Foundation
 
 final class DetailsViewModel: ObservableObject {
-  @Published var pokemon: Pokemon?
+  @Published var detailsResponse: [DetailsResponse]?
+  @Published var navigationTitle: String?
   
   func fetchData() {
-    guard let url = URL(string: "https://pokeapi.co/api/v2/pokemon/ditto") else {
+    guard let url = URL(string: "http://192.168.68.136:3000/news/details") else {
       return
     }
     
@@ -22,9 +23,9 @@ final class DetailsViewModel: ObservableObject {
       }
       
       do {
-        let decodedData = try JSONDecoder().decode(Pokemon.self, from: data)
+        let decodedData = try JSONDecoder().decode([DetailsResponse].self, from: data)
         DispatchQueue.main.async {
-          self?.pokemon = decodedData
+          self?.detailsResponse = decodedData
         }
       } catch {
         print("Error decoding data: \(error.localizedDescription)")

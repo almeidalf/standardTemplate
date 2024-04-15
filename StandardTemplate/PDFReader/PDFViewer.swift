@@ -14,23 +14,24 @@ struct PDFViewer: View {
   let pdfName: String
   
   var body: some View {
-    PDFKitView(pdfName: pdfName)
-  }
-}
-
-struct PDFKitView: UIViewControllerRepresentable {
-  let pdfName: String
-  
-  func makeUIViewController(context: Context) -> PDFViewController {
     let document = Document(url: Bundle.main.url(forResource: pdfName.replacingOccurrences(of: ".pdf", with: ""), withExtension: "pdf")!)
-    let pdfController = PDFViewController(document: document)
-    let textParser = document.textParserForPage(at: 0)!
-    let glyphs = textParser.glyphs
-    let glyph = glyphs[26]
-    return pdfController
-  }
-  
-  func updateUIViewController(_ pdfController: PDFViewController, context: Context) {
-    //
+    VStack(alignment: .trailing) {
+    PDFView(document: document)
+      .scrollDirection(.horizontal)
+      .useParentNavigationBar(true)
+      .spreadFitting(.adaptive)
+      .scrubberBarType(.horizontal)
+      .updateControllerConfiguration { controller in
+        controller.title = ""
+        controller.navigationItem.setRightBarButtonItems(
+          [controller.documentEditorButtonItem, controller.settingsButtonItem, controller.readerViewButtonItem],
+          for: .document, animated: false)
+        
+        controller.navigationItem.setLeftBarButtonItems(
+          [controller.annotationButtonItem, controller.searchButtonItem, controller.outlineButtonItem],
+          for: .document, animated: false)
+      }
+      .allowedMenuActions(.all)
+    }
   }
 }

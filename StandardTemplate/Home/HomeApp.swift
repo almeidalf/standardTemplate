@@ -26,3 +26,28 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     return true
   }
 }
+
+extension View {
+  func navigationBarColor(_ backgroundColor: UIColor) -> some View {
+    self.modifier(NavigationBarColorModifier(backgroundColor: backgroundColor))
+  }
+}
+
+struct NavigationBarColorModifier: ViewModifier {
+  var backgroundColor: UIColor?
+  
+  init(backgroundColor: UIColor?) {
+    self.backgroundColor = backgroundColor
+    
+    let coloredAppearance = UINavigationBarAppearance()
+    coloredAppearance.configureWithOpaqueBackground()
+    coloredAppearance.backgroundColor = backgroundColor
+    
+    UINavigationBar.appearance().standardAppearance = coloredAppearance
+    UINavigationBar.appearance().scrollEdgeAppearance = coloredAppearance
+  }
+  
+  func body(content: Content) -> some View {
+    content
+  }
+}

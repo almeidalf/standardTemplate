@@ -8,37 +8,41 @@
 import SwiftUI
 
 struct NextMagazines: View {
+  @State var image: String?
+  @State var data: String?
+  @State var subTitle: String?
+  
   var body: some View {
     LazyVStack {
-      HStack {
-        Image("page-1", bundle: .main)
+      VStack(alignment: .center) {
+        Image(image ?? "page-1", bundle: .main)
           .resizable()
-          .cornerRadius(8)
           .scaledToFit()
-          .frame(width: 130, height: 110)
+          .cornerRadius(8)
+          .padding(.top, 8)
+          .padding(.horizontal, 8)
         
         VStack(alignment: .leading) {
-          Text("chega em 02/05/24")
-            .font(.subheadline)
+          Text(subTitle ?? "")
+            .font(.caption)
             .foregroundStyle(.black)
+            .lineLimit(1)
+            .multilineTextAlignment(.leading)
           
-          FillButtonView(image: UIImage(systemName: "hand.thumbsup.fill"), title: "Gostei", isEnabled: true) {
-            print("clicou gostei")
-          }
-          .padding(.trailing, 16)
-          
-          FillButtonView(title: "Quero trocar") {
-            print("clicou gostei")
-          }
-          .padding(.trailing, 16)
+          Text(data ?? "")
+            .font(.caption)
+            .foregroundStyle(.black)
+            .lineLimit(1)
+            .multilineTextAlignment(.leading)
         }
+        .padding(.horizontal, 8)
         
         Spacer()
       }
     }
-    .background(Color.gray)
-    .cornerRadius(16)
-    .padding(.horizontal, 16)
+    .background(.white)
+    .cornerRadius(8)
+    .frame(width: 160)
   }
 }
 

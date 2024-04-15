@@ -1,66 +1,57 @@
-{
-  "newspaper": [
-    {
-      "id": 1,
-      "titulo": "Artigo sobre Machine Learning",
-      "subtitulo": "Introdução aos conceitos básicos de Machine Learning",
-      "image": "page-1",
-      "pdfName": "201909080203035d748b878a516.pdf",
-      "publisher": "Estadão",
-      "category": "Notícias",
-      "numberRead": 8
-    },
-    {
-      "id": 2,
-      "titulo": "Artigo sobre Machine Learning",
-      "subtitulo": "Introdução aos conceitos básicos de Machine Learning",
-      "image": "page-1",
-      "pdfName": "201909080203035d748b878a516.pdf",
-      "publisher": "Estadão",
-      "category": "Notícias",
-      "numberRead": 8
-    },
-    {
-      "id": 3,
-      "titulo": "Artigo sobre Machine Learning",
-      "subtitulo": "Introdução aos conceitos básicos de Machine Learning",
-      "image": "page-1",
-      "pdfName": "201909080203035d748b878a516.pdf",
-      "publisher": "Estadão",
-      "category": "Notícias",
-      "numberRead": 8
-    }
-  ],
-  "magazines": [
-    {
-      "id": 1,
-      "title": "Artigo sobre Machine Learning",
-      "subTitle": "Introdução aos conceitos básicos de Machine Learning",
-      "image": "page-1",
-      "pdfName": "gooutside_20231010_180_1.pdf",
-      "publisher": "Estadão",
-      "category": "Notícias",
-      "numberRead": 8
-    },
-    {
-      "id": 2,
-      "title": "Artigo sobre Machine Learning",
-      "subTitle": "Introdução aos conceitos básicos de Machine Learning",
-      "image": "page-1",
-      "pdfName": "gooutside_20231010_180_1.pdf",
-      "publisher": "Estadão",
-      "category": "Notícias",
-      "numberRead": 8
-    },
-    {
-      "id": 3,
-      "title": "Artigo sobre Machine Learning",
-      "subTitle": "Introdução aos conceitos básicos de Machine Learning",
-      "image": "page-1",
-      "pdfName": "gooutside_20231010_180_1.pdf",
-      "publisher": "Estadão",
-      "category": "Notícias",
-      "numberRead": 8
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "titulo": "Artigo sobre Machine Learning",
+    "subtitulo": "Introdução aos conceitos básicos de Machine Learning",
+    "cover": "201909130211315d7b25036cbe8_i.png",
+    "product": "News",
+    "filename": "201909130211315d7b25036cbe8.pdf",
+    "publisher": "O Globo",
+    "category": "Notícias",
+    "numberRead": 8
+  },
+  {
+    "id": 2,
+    "titulo": "Artigo sobre Machine Learning",
+    "subtitulo": "Introdução aos conceitos básicos de Machine Learning",
+    "cover": "201909080203035d748b878a516_i.png",
+    "product": "News",
+    "filename": "201909130205505d7b23aeda13c.pdf",
+    "publisher": "Estadão",
+    "category": "Notícias",
+    "numberRead": 8
+  },
+  {
+    "id": 3,
+    "titulo": "Artigo sobre Machine Learning",
+    "subtitulo": "Introdução aos conceitos básicos de Machine Learning",
+    "cover": "page-1",
+    "product": "News",
+    "filename": "201909080203035d748b878a516.pdf",
+    "publisher": "Estadão",
+    "category": "Notícias",
+    "numberRead": 8
+  },
+  {
+    "id": 4,
+    "product": "Magazine",
+    "titulo": "Arapongagem dos Bolsonaros",
+    "subtitulo": "Introdução aos conceitos básicos de Machine Learning",
+    "cover": "istoe_20240201_2817_i.png",
+    "filename": "istoe_20240201_2817.pdf",
+    "publisher": "ISTOÉ",
+    "category": "Notícias",
+    "numberRead": 8
+  },
+  {
+    "id": 5,
+    "product": "Magazine",
+    "titulo": "Artigo sobre Machine Learning",
+    "subtitulo": "Introdução aos conceitos básicos de Machine Learning",
+    "cover": "istoedinheiro_20240201_1361_i.png",
+    "filename": "istoedinheiro_20240201_1361.pdf",
+    "publisher": "ISTOÉ",
+    "category": "Notícias",
+    "numberRead": 8
+  }
+]
